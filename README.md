@@ -51,3 +51,7 @@ go to working directory of flask application and run:
 ```
 flask run
 ```
+
+## Python Refresher
+
+* [python basics](notes/README.md)
