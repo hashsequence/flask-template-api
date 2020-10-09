@@ -55,3 +55,7 @@ flask run
 ## Python Refresher
 
 * [python basics](notes/README.md)
+
+## Resourses
+* pytests
+  * [https://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/](https://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/)
