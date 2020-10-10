@@ -100,3 +100,52 @@ friends = friends.intersection(abroad) #intersection of two sets
 
 
 ```
+
+### bool
+
+* there is the "is" the keyword
+    * use to test if two variables references the same object
+    * == checks if the values are the same 
+```python
+print(friends is friends)
+# true
+```
+
+### if statements
+
+```python
+if day_of_week == "Monday"
+    print("monday")
+elif day_of_week == "tuesday"
+    print("tuesday")
+else:   
+    print("something else")
+```
+
+### in
+
+* two purposes 
+    * youse to check if value is in a sequence (list, range, string)
+    * in is used in for loop
+```python
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+
+if orange in fruits:
+    print("orange is in fruits")
+```
+
+### whilte
+
+```python
+while something != "blah":
+    if day_of_week == "Monday"
+        print("monday")
+    elif day_of_week == "tuesday"
+        print("tuesday")
+    else:   
+        print("something else")
+
+```
+
