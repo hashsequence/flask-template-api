@@ -59,3 +59,4 @@ flask run
 ## Resourses
 * pytests
   * [https://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/](https://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/)
+  * [https://stackoverflow.com/questions/20126475/importerror-no-module-named-sqlite3-in-python3-3](https://stackoverflow.com/questions/20126475/importerror-no-module-named-sqlite3-in-python3-3)
