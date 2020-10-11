@@ -1,15 +1,16 @@
-from flask import jsonify,request,render_template
-from . import routes
+from flask import Blueprint,jsonify,request,render_template
 
-
+print("Importing routes")
 stores = [{
     'name': 'My Store',
     'items': [{'name':'my item', 'price': 15.99 }]
 }]
 
+routes = Blueprint('routes', __name__, template_folder='../../templates')
+
 @routes.route('/')
 def home():
-  print('rendering index.html')
+  print('now rendering index.html')
   return render_template('index.html')
 
 #post /store data: {name :}

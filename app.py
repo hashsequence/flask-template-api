@@ -1,7 +1,5 @@
-from flask import Flask
-from pkg.api.routes import routes
+from pkg import create_app
 
-app = Flask(__name__)
-app.register_blueprint(routes)
+app = create_app()
 if __name__ == "__main__":
     app.run(port=5000)
